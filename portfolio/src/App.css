@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  font-family: "Calibri";
+}
+*{
+  background-color: #333;
+  color: white;
+}
+.Link{
+  text-decoration: none;
+  color: cyan;
+}
+nav{
+  font-size: 40px;
+}
+header{
+  border-bottom: 1px solid white;
+  width: 350px;
+  margin: auto;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+h1{
+  margin: 0;
+}
+.List{
+  list-style-type: none;
+  padding: 0;
+}
+h2{
+  text-decoration: underline;
+}
