@@ -6,6 +6,10 @@
   background-color: #333;
   color: white;
 }
+.Home{
+  width: 80%;
+  margin: auto;
+}
 .Link{
   text-decoration: none;
   color: cyan;
