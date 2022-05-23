@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 
 function App() {
-  const [darkmode, setDarkMode] = useState('dark');
+  const [darkmode, setDarkMode] = useState('Dark');
 
   const toggleTheme = () => {
     setDarkMode((currDarkmode) => {
@@ -17,13 +17,13 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className={`App__${darkmode ? 'light' : 'dark'}`}>
+      <div className={`App__${darkmode ? 'Light' : 'Dark'}`}>
         <NavBar />
         <button
           onClick={() => toggleTheme()}
-          className={`button__${darkmode ? 'dark' : 'light'}`}
+          className={`button__${darkmode ? 'Dark' : 'Light'}`}
         >
-          {darkmode ? 'dark' : 'light'}mode
+          {darkmode ? 'Dark' : 'Light'}mode
         </button>
         <Routes>
           <Route path='/' element={<Home />}></Route>

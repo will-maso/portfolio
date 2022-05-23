@@ -1,16 +1,33 @@
-.App__light {
+.App__Light {
   text-align: center;
   font-family: "Calibri";
   background-color: white;
   color: black;
   height: 100%;
 }
-.App__dark {
+.button__Dark {
+  background-color: white;
+  border-radius: 8px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+}
+.App__Dark {
   text-align: center;
   font-family: "Calibri";
   background-color: #333;
   color: white;
   height: 100%;
+}
+.button__Light{
+  background-color: white;
+  border-radius: 8px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  color: black;
 }
 #root {
   height: 110vh;
