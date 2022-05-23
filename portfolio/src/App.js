@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 
 function App() {
-  const [darkmode, setDarkMode] = useState('Dark');
+  const [darkmode, setDarkMode] = useState(false);
 
   const toggleTheme = () => {
     setDarkMode((currDarkmode) => {
