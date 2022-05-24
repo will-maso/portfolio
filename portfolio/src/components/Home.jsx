@@ -45,7 +45,7 @@ const Home = () => {
                         we plan to add a chat functionality in the future. All of this is done using firebase aswell as cloud functions to make a serverless backend, 
                         while the frontend uses React.
                         </Card.Text>
-                        <Card.Link href="https://github.com/boa-constructor/backend-firebase" className='Link'>Backend repository</Card.Link> / <Card.Link href="https://github.com/boa-constructor/frontend-react-app" className='Link'>Frontend repository</Card.Link>
+                        <Card.Link href="https://github.com/boa-constructor/backend-firebase" className='Link'>Backend repository</Card.Link> / <Card.Link href="https://github.com/boa-constructor/frontend-react-app" className='Link'>Frontend repository</Card.Link> / <Card.Link href="https://www.youtube.com/watch?v=Duzs1m4r33Y" className='Link'>YouTube video</Card.Link>
                     </Card.Body>
                 </Card>
             </li>
