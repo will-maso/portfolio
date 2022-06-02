@@ -1,17 +1,16 @@
 import './App.css';
-import NavBar from './components/NavBar';
-import Home from './components/Home';
-import Contact from './components/Contact';
-import About from './components/About';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { useState } from 'react';
+// import NavBar from './components/NavBar';
+// import Home from './components/Home';
+// import Contact from './components/Contact';
+// import About from './components/About';
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import { useState } from 'react';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import spaceImg from './space.jpg';
-import willImg from './will.jpg';
 
 function App() {
-  const [darkmode, setDarkMode] = useState(false);
+  // const [darkmode, setDarkMode] = useState(false);
   const scene = new THREE.Scene();
   const camera = new THREE.PerspectiveCamera(
     75,
